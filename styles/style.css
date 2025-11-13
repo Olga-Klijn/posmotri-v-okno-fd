@@ -225,10 +225,11 @@ ol {
 
 .more-button {
   width: 100%;
+  margin-top: 26px;
 }
 
 .content__details {
-  width: 390px;
+  width: 396px;
   display: flex;
   flex-direction: column;
   align-self: stretch;
@@ -253,16 +254,15 @@ ol {
   flex-direction: column;
   height: 298px;
   overflow-y: auto;
-  margin-top: 0;
-  overflow-x: hidden;
+  margin-top: 0;  
 }
 
 .content__list {
   display: flex;
   flex-direction: column;
   gap: 26px;
-  padding-bottom: 26px;
 }
+
 
 .content__card-link {
   display: block;
